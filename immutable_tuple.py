@@ -1,6 +1,6 @@
-colours = ("Red, Blue, Yellow")
+colours = ("Red", "Blue", "Yellow")
 print(id(colours))
-colours_2 = (", Purple")
+colours_2 = ("Purple")
 print(id(colours_2))
 
 colours = colours + colours_2
