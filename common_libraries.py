@@ -14,4 +14,4 @@ print(sqrt(16))  # Outputs: 4.0
 
 web_output = requests.get("https://www.example.com")
 print(web_output) # Status code 200 "Successful Request"
-print(web_output.text) # Text attribute from the request get 
+print(web_output.text) # Text attribute from the request get, includes source HTML 
